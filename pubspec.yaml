@@ -1,16 +1,18 @@
 name: flutter_quill_display
-description: A new Flutter package project.
+description: A rich text display and a [Quill] component for [Flutter].
 version: 0.0.1
 author:
-homepage:
+homepage: https://github.com/buaashuai/flutter_quill_display
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.12.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  quiver: ^3.0.0
+  tuple: ^2.0.0
 
 dev_dependencies:
   flutter_test:
